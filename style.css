@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.black {
+  color: black !important;
+}
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -128,27 +130,24 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
 .d-bloc p a {
   color: rgba(255, 255, 255, 0.6);
 }
+.icon-md {
+  color: black;
+}
 
+.icon-md:hover {
+  transform: scale(1.2);
+}
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
 .d-bloc p a:hover {
@@ -223,7 +222,6 @@ a:hover {
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
-.l-bloc a .icon-md,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
@@ -237,9 +235,6 @@ a:hover {
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
@@ -707,7 +702,7 @@ p {
 
 #cta-hero {
   margin-top: 22px;
-  color: white !important;
+  color: black !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
@@ -782,7 +777,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f55910;
+  background-color: #f3976c;
 }
 
 .tc-white {
@@ -795,8 +790,8 @@ h4 {
   background-color: rgba(240, 233, 233, 0.301);
 }
 .btn-atomic-tangerine {
-  background: #f55910;
-  color: #ffffff !important;
+  background: #f3976c;
+  color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -830,7 +825,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.jpg");
+  background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
