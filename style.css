@@ -533,6 +533,7 @@ a[data-lightbox]:hover::before {
   content: "+";
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
+  font-display: swap;
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -644,6 +645,7 @@ a {
   font-family: "helvetica";
   font-weight: 600;
   color: #575757 !important;
+  font-display: swap;
 }
 label {
   font-size: 16px;
@@ -698,11 +700,12 @@ p {
 .h1 {
   font-size: 20px;
   font-family: "Open Sans";
+  font-display: swap;
 }
 
 #cta-hero {
   margin-top: 22px;
-  color: black !important;
+  color: black;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
@@ -955,6 +958,9 @@ h4 {
     border-bottom-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
+  }
+  .nav > li:hover {
+    transform: unset;
   }
   #hero-bloc .navbar .nav {
     background: rgba(0, 0, 0, 0.8);
