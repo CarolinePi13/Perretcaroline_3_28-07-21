@@ -644,6 +644,9 @@ a[data-lightbox]:hover img {
   font-weight: bold;
   font-size: 20px;
 }
+.bold {
+  font-weight: bold;
+}
 .citation-caption {
   font-size: 15px;
 }
@@ -764,7 +767,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(59, 48, 16, 0.7);
   padding: 40px 40px 40px 40px;
 }
 
