@@ -639,7 +639,14 @@ a[data-lightbox]:hover img {
 .bg-app {
   background-color: #f3976c;
 }
-
+.citation {
+  font-family: open-sans;
+  font-weight: bold;
+  font-size: 20px;
+}
+.citation-caption {
+  font-size: 15px;
+}
 h2,
 p,
 label,
@@ -657,8 +664,10 @@ label {
 }
 
 .hero-bloc-text {
-  font-size: 36px;
+  font-size: 45px;
   padding-bottom: 20px;
+  font-family: open-sans;
+  font-weight: bold;
 }
 .spaced-text {
   line-height: 2em;
